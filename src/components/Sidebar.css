@@ -1,0 +1,40 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-color: var(--sidebar-background);
+  padding: 20px;
+  box-sizing: border-box;
+  transition: width 0.3s ease-in-out;
+}
+
+.logo-container > img {
+  width: 25%;
+  height: auto;
+}
+
+.nav-link-custom {
+  color: var(--sidebar-text-color);
+  margin-bottom: 10px;
+  transition: background-color 0.2s ease-in-out; /* Aggiungi transizione per effetto hover */
+}
+
+.nav-link-custom:hover {
+  background-color: var(--sidebar-hover-color);
+  color: var(--sidebar-text-color);
+}
+
+.nav-link-custom.active {
+  background-color: var(--sidebar-active-color);
+  border-bottom: 2px solid var(--sidebar-active-border);
+}
+
+/* Media query per adattare la sidebar a schermi più piccoli */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 60px;
+  }
+}
