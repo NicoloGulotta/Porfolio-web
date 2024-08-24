@@ -6,16 +6,10 @@ import Jumbotron from './components/Jumbotron.jsx';
 
 function App() {
   return (
-    <Container fluid>
-      <Row>
-        <Col md={3}>
-          <Sidebar />
-        </Col>
-        <Col md={9}>
-          <Jumbotron />
-        </Col>
-      </Row>
-    </Container>
+    <Container >
+      <Sidebar />
+      <Jumbotron />
+    </Container >
   );
 }
 
