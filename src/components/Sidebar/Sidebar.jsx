@@ -1,23 +1,36 @@
 import React from 'react';
 import { Nav, Container, Navbar } from 'react-bootstrap';
 import './Sidebar.css';
-import logo from '../../assets/foto-profilo.jpeg';
-import logobig from '../../assets/logo-big.jpeg'
+import name from '../../assets/name-big.jpg'
+import logobig from '../../assets/logo-small.png'
+
 const Sidebar = () => {
   return (
     <Navbar className="sidebar">
       <Container className=''>
         <Navbar.Brand href="/" className='image-box'>
-          <img src={logobig} alt="Big logo" className="jumbotron-image" />
-          {/* <img src={logo} alt="My Profile" className="profile-image" /> */}
+          <img src={name} alt="My Name" className="name-image" />
+          {/* <img src={logobig} alt="Big logo" className="jumbotron-image" /> */}
         </Navbar.Brand>
         <td>
           <Navbar.Collapse id="basic-sidebar-nav">
-            <Nav className="flex-column">
-              <Nav.Link href="/"><i className="bi bi-arrow-right"> CHI </i></Nav.Link>
-              <Nav.Link href="/about"><i className="bi bi-arrow-right"> FA </i></Nav.Link>
-              <Nav.Link href="/Expirienze"><i className="bi bi-arrow-right"> COSA </i></Nav.Link>
-              <Nav.Link href="/contact"><i className="bi bi-arrow-right"> COME </i></Nav.Link>
+            <Nav>
+              <Nav.Link href="/#">
+                <img src={logobig} alt="Big logo" className="jumbotron-image" />
+                CHI SONO
+              </Nav.Link>
+              <Nav.Link href="/#">
+                <img src={logobig} alt="Big logo" className="jumbotron-image" />
+                COSA FACCIO
+              </Nav.Link>
+              <Nav.Link href="/#">
+                <img src={logobig} alt="Big logo" className="jumbotron-image" />
+                COME LO FACCIO
+              </Nav.Link>
+              <Nav.Link href="/#">
+                <img src={logobig} alt="Big logo" className="jumbotron-image" />
+                CHIEDI DI PIU'
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </td>
