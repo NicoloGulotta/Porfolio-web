@@ -1,15 +1,15 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
 import './App.css';
-import Sidebar from './components/Sidebar.jsx';
-import Jumbotron from './components/Jumbotron.jsx';
-
+import Sidebar from './components/Sidebar/Sidebar.jsx';
+import Jumbotron from './components/Jumbotron/Jumbotron.jsx';
+// import Content from './components/Content/Content.jsx'
 function App() {
   return (
-    <Container >
+    <div className='container'>
       <Sidebar />
       <Jumbotron />
-    </Container >
+      {/* <Content /> */}
+    </div>
   );
 }
 

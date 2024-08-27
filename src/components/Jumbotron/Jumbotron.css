@@ -1,0 +1,18 @@
+div.jumbotron-big {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.jumbotron-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .jumbotron-image {
+    align-items: end;
+    justify-content: end;
+    display: none;
+  }
+}
