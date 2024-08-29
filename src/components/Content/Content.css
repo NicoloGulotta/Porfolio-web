@@ -1,5 +1,8 @@
-.box {
-  background-image: "../../assets/sfondo.jpg";
-  background-size: cover;
-  background-position: center;
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+h2,
+p,
+span,
+a {
+  font-family: "Permanent Marker", cursive;
+  font-style: normal;
 }
