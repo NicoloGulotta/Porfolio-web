@@ -8,16 +8,16 @@ import Contatti from './contatti/Contatti.jsx';
 import Progetti from './progetti/Progetti.jsx';
 export default function Content() {
     return (
-        <div className="container">
-            <div className="row-column text-white">
-                <div className="col-md-4">
+        <div className="container-content m-3">
+            <div>
+                <div>
                     <Profilo />
                 </div>
-                <div className="col-md-4">
-                    <Contatti />
-                </div>
-                <div className="col-md-4">
+                <div>
                     <Progetti />
+                </div>
+                <div>
+                    <Contatti />
                 </div>
             </div>
         </div>

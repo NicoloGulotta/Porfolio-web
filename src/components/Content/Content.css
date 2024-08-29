@@ -1,8 +1,13 @@
+.container-content {
+  margin: 30px;
+}
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 h2,
+h1,
 p,
 span,
 a {
   font-family: "Permanent Marker", cursive;
   font-style: normal;
+  color: white;
 }

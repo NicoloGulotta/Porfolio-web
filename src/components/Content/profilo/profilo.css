@@ -1,0 +1,15 @@
+.container-profile {
+  display: flex;
+  align-items: center;
+}
+
+img.profile-image {
+  width: 300px;
+  border-radius: 5%;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 10px 30px;
+  transition: all 1.5s;
+  margin: 20px;
+}
+img.profile-image:hover {
+  scale: 1.1;
+}

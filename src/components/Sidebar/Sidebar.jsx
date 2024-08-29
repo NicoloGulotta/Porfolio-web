@@ -6,8 +6,7 @@ import logobig from '../../assets/logo-small.png'
 
 const Sidebar = () => {
   return (
-    <Navbar className="sidebar d-flex justify-content-around fixed">
-
+    <Navbar className="sidebar fixed-bottom">
       <Navbar.Brand href="/" className='image-box m-3 p-0'>
         <img src={name} alt="My Name" className="name-image m-0 p-0 w-100 m-1 mb-5" />
       </Navbar.Brand>

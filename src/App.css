@@ -10,3 +10,6 @@ body {
   height: 100vh;
   background-attachment: fixed; /* Se desideri che lo sfondo rimanga fisso durante lo scorrimento */
 }
+.app-container {
+  display: flex;
+}
