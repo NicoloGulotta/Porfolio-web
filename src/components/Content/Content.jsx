@@ -6,11 +6,14 @@ import './progetti/Progetti.jsx'
 import Profilo from './profilo/Profilo.jsx';
 import Contatti from './contatti/Contatti.jsx';
 import Progetti from './progetti/Progetti.jsx';
+
+
 export default function Content() {
     return (
-        <div className="container-content m-3">
+        <div className="container-content m-3 ">
             <div>
-                <div>
+
+                <div className='info-box'>
                     <Profilo />
                 </div>
                 <div>

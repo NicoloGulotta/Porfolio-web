@@ -1,4 +1,7 @@
+.container-con {
+  display: none;
+}
+
 a.info {
-  gap: 20px;
   text-decoration: none;
 }

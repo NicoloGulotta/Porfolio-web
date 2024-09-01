@@ -1,8 +1,9 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
+import './Progetti.css'
 export default function Progetti() {
     return (
-        <div>
+        <div className='container-pro'>
             <h1>Progetti</h1>
             <Carousel>
                 <Carousel.Item>

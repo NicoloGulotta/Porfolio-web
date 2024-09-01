@@ -4,7 +4,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import './Contatti.css'
 export default function Contatti() {
     return (
-        <div>
+        <div className='container-con'>
             <h1>Contatti</h1>
 
             <ul>

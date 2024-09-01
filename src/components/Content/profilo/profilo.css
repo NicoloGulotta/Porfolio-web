@@ -1,6 +1,12 @@
+P {
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: large;
+}
 .container-profile {
   display: flex;
   align-items: center;
+  display: none;
 }
 
 img.profile-image {
@@ -12,4 +18,8 @@ img.profile-image {
 }
 img.profile-image:hover {
   scale: 1.1;
+}
+.text-part {
+  margin: 20px;
+  width: 400px;
 }
