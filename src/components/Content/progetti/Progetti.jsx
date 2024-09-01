@@ -1,33 +1,35 @@
-import React from 'react'
-import { Carousel } from 'react-bootstrap';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import Carousel from 'react-bootstrap/Carousel';
 import './Progetti.css'
-export default function Progetti() {
+export default function App() {
     return (
         <div className='container-pro'>
-            <h1>Progetti</h1>
+            <h2 className='text-light'>Progetti</h2>
             <Carousel>
-                <Carousel.Item>
-                    <img width={900} height={500} alt="900x500" src="/carousel.png" />
+                <Carousel.Item interval={1500}>
+                    <img
+                        alt='bello'
+                        className="d-block w-100"
+                        src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
+                    />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Label for first slide</h3>
+                        <p>Sample Text for Image One</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <img width={900} height={500} alt="900x500" src="/carousel.png" />
+                <Carousel.Item interval={1000}>
+                    <img
+                        alt='bello'
+                        className="d-block w-100"
+                        src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
+                    />
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Label for second slide</h3>
+                        <p>Sample Text for Image Two</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <img width={900} height={500} alt="900x500" src="/carousel.png" />
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>;
-        </div>
-    )
+            </Carousel>
+        </div >
+    );
 }

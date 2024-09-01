@@ -5,8 +5,7 @@ import './Contatti.css'
 export default function Contatti() {
     return (
         <div className='container-con'>
-            <h1>Contatti</h1>
-
+            <h2 className='text-light' >Contattami</h2>
             <ul>
                 <li>
                     <a className='info' href="https://www.linkedin.com/in/luca-giordano-1">

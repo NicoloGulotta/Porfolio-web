@@ -1,5 +1,6 @@
 .container-con {
-  display: none;
+  width: 100%;
+  margin: 100px;
 }
 
 a.info {

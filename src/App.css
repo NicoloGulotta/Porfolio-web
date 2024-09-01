@@ -4,13 +4,9 @@
   padding: 0;
 }
 body {
-  background-image: url("./assets/sfondo\ -\ inverso.jpg"); /* Assumendo WebP come formato ottimizzato */
+  background-image: url("./assets/sfondo\ -\ inverso.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  background-attachment: fixed; /* Se desideri che lo sfondo rimanga fisso durante lo scorrimento */
-}
-.app-container {
-  display: flex;
-  justify-content: space-between;
+  background-attachment: fixed;
 }

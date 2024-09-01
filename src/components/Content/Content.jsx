@@ -10,10 +10,10 @@ import Progetti from './progetti/Progetti.jsx';
 
 export default function Content() {
     return (
-        <div className="container-content m-3 ">
+        <div className="container-content">
             <div>
 
-                <div className='info-box'>
+                <div>
                     <Profilo />
                 </div>
                 <div>

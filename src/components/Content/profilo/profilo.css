@@ -1,16 +1,20 @@
-P {
-  font-family: monospace;
-  font-weight: bolder;
-  font-size: large;
-}
 .container-profile {
   display: flex;
   align-items: center;
-  display: none;
+  margin: 100px;
+}
+span {
+  font-weight: bolder;
+  font-size: x-large;
+}
+P {
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: x-large;
 }
 
 img.profile-image {
-  width: 300px;
+  width: 250px;
   border-radius: 5%;
   box-shadow: rgba(255, 255, 255, 0.35) 0px 10px 30px;
   transition: all 1.5s;
@@ -20,6 +24,5 @@ img.profile-image:hover {
   scale: 1.1;
 }
 .text-part {
-  margin: 20px;
-  width: 400px;
+  width: 600px;
 }

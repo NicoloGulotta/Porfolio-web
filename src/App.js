@@ -7,8 +7,8 @@ import { Container } from 'react-bootstrap';
 function App() {
   return (
     <Container className="app-container">
-      <Content />
       <Navbar />
+      <Content />
 
     </Container>
   );
