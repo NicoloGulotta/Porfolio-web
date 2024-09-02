@@ -5,9 +5,7 @@ import name from '../../assets/name-big.jpg'
 const Navbar = () => {
   return (
     <div className="sidebar">
-      <a href="/" className='image-box '>
-        <img src={name} alt="My Name" className="name-image" />
-      </a>
+      <img src={name} alt="My Name" className="name-image" />
 
     </div >
   );

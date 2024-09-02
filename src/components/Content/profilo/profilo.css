@@ -1,16 +1,19 @@
 .container-profile {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  margin: 100px;
+  margin-bottom: 100px;
+  width: 1500px;
 }
 span {
   font-weight: bolder;
   font-size: x-large;
 }
 P {
+  width: 100%;
   font-family: monospace;
   font-weight: bolder;
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 img.profile-image {

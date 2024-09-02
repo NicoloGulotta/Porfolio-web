@@ -11,3 +11,12 @@ a {
   font-style: normal;
   color: white;
 }
+.blocco {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.hidden {
+  opacity: 1;
+  transform: translateY(20px);
+}
