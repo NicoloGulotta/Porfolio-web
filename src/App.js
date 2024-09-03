@@ -9,7 +9,6 @@ function App() {
     <Container className="app-container">
       <Navbar />
       <Content />
-
     </Container>
   );
 }

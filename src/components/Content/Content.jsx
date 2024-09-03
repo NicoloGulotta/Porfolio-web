@@ -31,18 +31,18 @@ export default function Content() {
 
     return (
         <div className="container-content">
-            <div>
-                {blocks.map((block, index) => (
-                    <div
-                        key={index}
-                        className={`blocco ${isScrolled ? 'hidden' : ''} ${index === currentBlock ? 'active' : ''}`}
-                        onClick={() => handleBlockClick(index)}
-                    >
-                        <h2 className="block-title">{block.title}</h2>
-                        {block.component}
-                    </div>
-                ))}
-            </div>
+
+            {blocks.map((block, index) => (
+                <div
+                    key={index}
+                    className={`blocco ${isScrolled ? 'hidden' : ''} ${index === currentBlock ? 'active' : ''}`}
+                    onClick={() => handleBlockClick(index)}
+                >
+                    <h2 className="block-title">{block.title}</h2>
+                    {block.component}
+                </div>
+            ))}
         </div>
+
     );
 }
