@@ -44,7 +44,7 @@ export default function Contatti() {
             </Button>
             <Modal show={showModal} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Contattaci</Modal.Title>
+                    <Modal.Title>Scrivimi qui</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <p className='text-dark'>

@@ -1,38 +1,47 @@
 .profilo {
-  display: flex;
-  align-items: center;
   margin-bottom: 10rem;
-  width: 100%;
   border-radius: 10px;
   box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.3);
 }
 
-@media (max-width: 768px) {
-  .container-profile {
-    flex-direction: column;
-  }
-  .container-profile p {
-    font-size: 1.2rem;
-    text-align: center;
-  }
-  img.profile-image {
-    width: 100%;
-    object-fit: cover;
-  }
-}
-
-span {
-  font-weight: bolder;
-  font-size: x-large;
-}
-
-p {
+/* Utilizziamo le unità rem per una maggiore flessibilità */
+.profilo p {
   font-family: monospace;
   font-weight: bolder;
-  font-size: xx-large;
-  padding: 10px;
+  padding: 1rem;
 }
 
+/* Media query per adattare il font-size a diverse dimensioni dello schermo */
+@media (min-width: 1200px) {
+  .profilo p {
+    font-size: 1.4rem;
+  }
+  .profile-image {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .profilo p {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .profilo p {
+    font-size: 1.1rem;
+  }
+}
+
+/* Altre classi per stili più specifici */
+.profilo__titolo {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.profilo__descrizione {
+  line-height: 1.5;
+}
 img.profile-image {
   width: 250px;
   border-radius: 5%;

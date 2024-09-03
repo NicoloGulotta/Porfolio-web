@@ -12,15 +12,15 @@ export default function Progetti() {
             <Carousel>
                 <Carousel.Item interval={3000}>
                     <img className='image' src={Capstone} alt="Screenshot Capstone" />
-                    <h1 className='text-light' >Capstone-ShissorHand</h1>
+                    <h4 className='text-light' >Capstone-ShissorHand</h4>
                 </Carousel.Item>
                 <Carousel.Item interval={3000}>
                     <img className='image' src={BarberLinks} alt="Screenshot BarberLink" />
-                    <h1 className='text-light'>Barber-links</h1>
+                    <h4 className='text-light'>Barber-links</h4>
                 </Carousel.Item>
                 <Carousel.Item interval={3000}>
                     <img className='image' src={LinkSmart} alt="Screenshot BarberLink" />
-                    <h1 className='text-light'>Barber-links-Smartphone</h1>
+                    <h4 className='text-light'>Barber-links-Smartphone</h4>
                 </Carousel.Item>
             </Carousel>
         </div >
