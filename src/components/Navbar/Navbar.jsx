@@ -6,7 +6,6 @@ const Navbar = () => {
   return (
     <div className="sidebar">
       <img src={name} alt="My Name" className="name-image" />
-
     </div >
   );
 };
