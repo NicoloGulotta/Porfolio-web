@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-image: url("./assets/sfondo\ -\ inverso.jpg");
   background-size: cover;
@@ -10,9 +11,18 @@ body {
   height: 100vh;
   background-attachment: fixed;
 }
+
 .app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+
+  @media (max-width: 368px) {
+    .app-container {
+      padding: 10px;
+    }
+  }
 }
