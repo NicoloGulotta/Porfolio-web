@@ -1,8 +1,7 @@
 import React from 'react';
 import foto from '../../../assets/profilo.jpg';
 import { Container, Row, Col } from 'react-bootstrap';
-import './Profilo.css';
-
+import './Profilo.css'
 const Profilo = () => {
     return (
         <Container className="profilo">

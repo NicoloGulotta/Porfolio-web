@@ -7,3 +7,6 @@ img.image {
   height: 50vh;
   object-fit: contain;
 }
+.carousel-indicators {
+  display: none;
+}
