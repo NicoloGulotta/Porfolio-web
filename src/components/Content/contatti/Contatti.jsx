@@ -33,11 +33,6 @@ export default function Contatti() {
                         <FontAwesomeIcon icon={faInstagram} className='icon' /> Instagram
                     </a>
                 </li>
-                <li>
-                    <a className='info' href="https://twitter.com/your-username">
-                        <FontAwesomeIcon icon={faInstagram} className='icon' /> Instagram
-                    </a>
-                </li>
             </ul>
             <Button variant="outline-dark" onClick={handleShow}>
                 Contattami
