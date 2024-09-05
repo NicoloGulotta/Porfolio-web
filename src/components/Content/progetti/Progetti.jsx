@@ -2,10 +2,10 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import './Progetti.css'
-import Capstone from './Screenshot-Capstone.png'
-import BarberLinks from './Screenshot-BarberLink.png'
-import LinkSmart from './Screenshot BarberLink-Smartphone.jpg'
-import ComingSoon from './images.png'
+import Capstone from '../../../assets/Screenshot-Capstone.png'
+import BarberLinks from '../../../assets/Screenshot-BarberLink.png'
+import LinkSmart from '../../../assets/Screenshot BarberLink-Smartphone.jpg'
+import ComingSoon from '../../../assets/images.png'
 
 export default function Progetti() {
     return (
