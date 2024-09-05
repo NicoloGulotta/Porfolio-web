@@ -8,8 +8,6 @@
 }
 .name-image {
   width: 50%;
-  border: 3px solid white;
-  box-shadow: rgba(255, 255, 255, 0.35) 0px 15px 20px;
   margin: 10px auto;
 }
 .animated-arrow {
