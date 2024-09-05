@@ -1,5 +1,5 @@
 import React from 'react';
-import foto from '../../../assets/70e0c545-087b-4afd-81a7-3dd520a8c153.jpg';
+import foto from '../../../assets/foto profilo.png';
 import { Container, Row, Col } from 'react-bootstrap';
 import './ProfiloCSS.css';
 const Profilo = () => {
