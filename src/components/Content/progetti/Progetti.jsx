@@ -5,6 +5,7 @@ import './Progetti.css'
 import Capstone from '../../../assets/Screenshot-Capstone.png'
 import LinkSmart from '../../../assets/Screenshot BarberLink-Smartphone.jpg'
 import ComingSoon from '../../../assets/images.png'
+import TodoList from '../../../assets/Screenshot 2024-09-05 211849.png'
 
 export default function Progetti() {
     return (
@@ -17,6 +18,9 @@ export default function Progetti() {
 
                 <Carousel.Item interval={3000}>
                     <img className='image' src={LinkSmart} alt="Screenshot BarberLink" />
+                </Carousel.Item>
+                <Carousel.Item interval={3000}>
+                    <img className='image' src={TodoList} alt="TodoList" />
                 </Carousel.Item>
                 <Carousel.Item interval={3000}>
                     <img className='image' src={ComingSoon} alt="Coming Soon" />
