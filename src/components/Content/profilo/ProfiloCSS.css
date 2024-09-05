@@ -29,16 +29,11 @@
     flex-direction: column;
   }
   .profilo p {
+    margin-top: 1rem;
     font-size: 1.1rem;
   }
 }
-.profilo__titolo {
-  font-size: 1.2rem;
-}
 
-.profilo__descrizione {
-  line-height: 1.5;
-}
 img.profile-image {
   border-radius: 10px;
   width: 300px;
@@ -53,6 +48,8 @@ img.profile-image:hover {
 }
 
 .col4 {
-  padding-top: 0 !important;
   border-radius: 10px;
+}
+span {
+  margin-top: 3rem;
 }
