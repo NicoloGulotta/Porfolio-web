@@ -6,10 +6,10 @@ const Profilo = () => {
     return (
         <Container className="profilo">
             <Row>
-                <Col md={4} sm={12}>
+                <Col className='col4' >
                     <img src={foto} alt="Nicolò Gulotta" className="profile-image" />
                 </Col>
-                <Col md={8} sm={12}>
+                <Col>
                     <div className="text-part">
                         <span>WEB DEVELOPER FULL-STACKS <strong>M.E.R.N.</strong> </span>
                         <p>Professionista versatile con esperienza nella
