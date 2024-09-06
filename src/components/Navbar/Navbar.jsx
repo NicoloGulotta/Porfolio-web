@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import name from '../../assets/name-big.jpg'
-import arrow from '../../assets/vecteezy_neumorphic-down-arrow-button_11888080.png'
+import arrow from '../../assets/—Pngtree—vector down arrow icon_4274043.png'
 const Navbar = () => {
   return (
     <div className="sidebar">

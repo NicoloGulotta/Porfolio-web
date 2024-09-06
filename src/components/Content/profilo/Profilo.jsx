@@ -1,5 +1,5 @@
 import React from 'react';
-import foto from '../../../assets/foto profilo.png';
+import foto from '../../../assets/image.png';
 import { Container } from 'react-bootstrap';
 import './ProfiloCSS.css';
 
