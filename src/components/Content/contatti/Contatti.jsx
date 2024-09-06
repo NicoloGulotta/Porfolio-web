@@ -29,7 +29,7 @@ export default function Contatti() {
                     </a>
                 </li>
             </ul>
-            <Button variant="outline-dark" onClick={handleShow}>
+            <Button variant="outline-light" onClick={handleShow}>
                 Contattami
             </Button>
             <Modal show={showModal} onHide={handleClose}>
