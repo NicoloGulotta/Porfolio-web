@@ -1,0 +1,12 @@
+.container-mern {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  color: white;
+}
+.pic {
+  width: 100%;
+  border-radius: 10px;
+}

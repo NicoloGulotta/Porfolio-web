@@ -3,7 +3,7 @@ import './Content.css';
 import Profilo from './profilo/Profilo.jsx';
 import Progetti from './progetti/Progetti.jsx';
 import Contatti from './contatti/Contatti.jsx';
-
+import MernStack from './Mern/Mern.jsx';
 export default function Content() {
     const [currentBlock, setCurrentBlock] = useState(0);
     const [isScrolled, setIsScrolled] = useState(false);
@@ -26,6 +26,7 @@ export default function Content() {
     const blocks = [
         { component: <Profilo /> },
         { component: <Progetti /> },
+        { component: <MernStack /> },
         { component: <Contatti /> },
     ];
 

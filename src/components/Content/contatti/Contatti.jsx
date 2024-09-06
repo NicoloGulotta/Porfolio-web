@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import './Contatti.css';
 import { Modal, Button } from 'react-bootstrap';
 
