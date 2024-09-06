@@ -43,7 +43,6 @@ img.profile-image {
 }
 
 img.profile-image:hover {
-  scale: 1.1;
   box-shadow: rgba(255, 255, 255, 0.35) 0px 0px 30px;
 }
 
@@ -51,5 +50,7 @@ img.profile-image:hover {
   border-radius: 10px;
 }
 span {
-  margin-top: 3rem;
+  font-size: x-large;
+  font-weight: bolder;
+  margin: 5rem 0rem;
 }
