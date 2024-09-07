@@ -25,8 +25,8 @@ export default function Content() {
 
     const blocks = [
         { component: <Profilo /> },
-        { component: <Progetti /> },
         { component: <MernStack /> },
+        { component: <Progetti /> },
         { component: <Contatti /> },
     ];
 
