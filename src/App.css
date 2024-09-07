@@ -8,7 +8,7 @@ body {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
-  background-image: url("./assets/sfondo\ -\ inverso.jpg");
+  background-image: url("./assets/sfondo-inverso.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
