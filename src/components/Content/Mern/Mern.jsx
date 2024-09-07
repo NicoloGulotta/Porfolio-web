@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import mern from '../../../assets/Mern-stack.png';
 import './Mern.css';
+import { Button } from 'react-bootstrap';
+
 
 export default function MernStack() {
     const [showDetails, setShowDetails] = useState(false);
@@ -13,9 +15,10 @@ export default function MernStack() {
         <div className='container-mern mb-4'>
             <h1 className='title'>Work-Flow dello stack M.E.R.N.</h1>
             <img className='pic' src={mern} alt="mern-pic" />
-            <button className="btn btn-dark mt-3" onClick={toggleDetails}>
+            <Button variant="outline-light" className=" mt-3" onClick={toggleDetails}>
                 {showDetails ? 'Nascondi Dettagli' : 'Mostra Dettagli'}
-            </button>
+            </Button>
+
             {showDetails && (
                 <ol className="text-white mt-3">
                     <li>
