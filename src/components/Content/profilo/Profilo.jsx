@@ -5,7 +5,7 @@ import './ProfiloCSS.css';
 
 const Profilo = () => {
     return (
-        <Container className="profilo d-flex align-items-center p-0">
+        <Container className="profilo d-flex align-items-center p-3">
             <img src={foto} alt="Nicolò Gulotta" className="profile-image" />
             <div className="text-part ms-4">
                 <span>WEB DEVELOPER FULL-STACKS <strong>M.E.R.N.</strong> </span>

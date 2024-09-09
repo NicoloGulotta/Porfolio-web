@@ -2,12 +2,26 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Centra il contenitore */
+  text-align: center; /* Centra il testo */
 }
+
 .title {
   color: white;
+  text-align: center; /* Centra il titolo */
 }
+
 .pic {
   width: 100%;
+  max-width: 100%;
+  height: auto;
   border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.container-mern ol {
+  text-align: justify; /* Giustifica il testo all'interno dell'elenco */
+  max-width: 80%; /* Imposta una larghezza massima per rendere il testo più leggibile */
+  margin: 0; /* Assicura che non ci siano margini aggiuntivi */
+  padding: 0; /* Assicura che non ci siano padding aggiuntivi */
 }
