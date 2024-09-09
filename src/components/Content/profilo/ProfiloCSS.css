@@ -29,6 +29,9 @@ p {
   .profilo p {
     font-size: 1.3rem;
   }
+  img.profile-image {
+    width: 50%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -40,8 +43,23 @@ p {
     margin-top: 1rem;
     font-size: 1.1rem;
   }
+  img.profile-image {
+    width: 50%;
+  }
 }
-
+@media (min-width: 767px) {
+  .profilo {
+    display: flex;
+    flex-direction: column;
+  }
+  .profilo p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+  img.profile-image {
+    width: 50%;
+  }
+}
 img.profile-image {
   width: 20%;
   border-radius: 10px;
