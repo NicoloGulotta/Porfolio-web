@@ -14,17 +14,17 @@ export default function Contatti() {
             <h2 className='text-light'>Contatti</h2>
             <ul className='social-icons'>
                 <li>
-                    <a className='info' href="https://www.linkedin.com/in/gulotta13">
+                    <a className='info' href="https://www.linkedin.com/in/gulotta13" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} className='icon' /> LinkedIn
                     </a>
                 </li>
                 <li>
-                    <a className='info' href="https://github.com/NicoloGulotta">
+                    <a className='info' href="https://github.com/NicoloGulotta" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub} className='icon' /> GitHub
                     </a>
                 </li>
                 <li>
-                    <a className='info' href="https://www.facebook.com/Nik.Gulotta.98/?locale=it_IT">
+                    <a className='info' href="https://www.facebook.com/Nik.Gulotta.98/?locale=it_IT" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faFacebook} className='icon' /> Facebook
                     </a>
                 </li>
@@ -32,7 +32,7 @@ export default function Contatti() {
             <Button variant="outline-light" onClick={handleShow}>
                 Contattami
             </Button>
-            <a href="/public/CV_NG_2024.pdf" download>
+            <a href="/CV_NG_2024.pdf" download>
                 <Button variant="outline-light">Scarica il mio CV</Button>
             </a>
             <Modal show={showModal} onHide={handleClose}>
@@ -42,7 +42,7 @@ export default function Contatti() {
                 <Modal.Body>
                     <p className='text-dark'>
                         Email:
-                        <a className='text-dark' href="gulottanico1998@gmail.com">gulottanico1998@gmail.com</a>
+                        <a className='text-dark' href="mailto:gulottanico1998@gmail.com">gulottanico1998@gmail.com</a>
                     </p>
                 </Modal.Body>
                 <Modal.Footer>
@@ -50,8 +50,7 @@ export default function Contatti() {
                         Chiudi
                     </Button>
                 </Modal.Footer>
-
             </Modal>
-        </div >
+        </div>
     );
 }
