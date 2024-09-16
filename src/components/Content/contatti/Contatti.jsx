@@ -32,7 +32,7 @@ export default function Contatti() {
             <Button variant="outline-light" onClick={handleShow}>
                 Contattami
             </Button>
-            <a href="/public/cv-NG-2024.pdf" download>
+            <a href="../contatti/CV_NG_2024.pdf" download>
                 <Button variant="outline-light">Scarica il mio CV</Button>
             </a>
             <Modal show={showModal} onHide={handleClose}>
