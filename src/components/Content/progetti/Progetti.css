@@ -13,13 +13,14 @@ img.image {
 }
 
 .card-text {
-  height: 200px;
+  padding-bottom: 10px;
 }
 
 .card {
   width: 90%; /* Adatta la larghezza della card all'80% del contenitore */
   max-width: 35rem; /* Limita la larghezza massima */
   height: auto; /* Flessibilità per altezza */
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 768px) {
