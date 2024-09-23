@@ -14,7 +14,7 @@ export default function MernStack() {
         <div className='container-mern mb-4'>
             <h1 className='title'>Work-Flow dello stack M.E.R.N.</h1>
             <img className='pic' src={mern} alt="Diagramma dello stack M.E.R.N." />
-            <Button variant="outline-light" className="mt-3" onClick={toggleDetails}>
+            <Button variant="outline-light m-4" className="mt-3" onClick={toggleDetails}>
                 {showDetails ? 'Nascondi Dettagli' : 'Mostra Dettagli'}
             </Button>
 

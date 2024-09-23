@@ -20,7 +20,7 @@ export default function Progetti() {
                         <div className="card-body d-flex flex-column align-items-center">
                             <h4 className="card-title text-light">Capstone Barber Shop</h4>
                             <p className="card-text text-light">Gestionale completo per barbieri sviluppato con lo stack MERN. Frontend responsive per la prenotazione intuitiva di servizi; backend sicuro con autenticazione a token per la gestione degli utenti e delle operazioni CRUD.</p>
-                            {/* <a href="/#" className="btn btn-dark text-light">Scopri di più</a> */}
+                            {/* <a href="/#" className="btn btn-dark text-light">Git Hub</a> */}
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ export default function Progetti() {
                         <div className="card-body d-flex flex-column align-items-center">
                             <h4 className="card-title text-light">Barber Links</h4>
                             <p className="card-text text-light">Codice QR per accedere rapidamente alle recensioni e ai canali social di 'Vito Gallo Barber Shop'</p>
-                            {/* <a href="/#" className="btn btn-dark text-light">Scopri di più</a> */}
+                            {/* <a href="/#" className="btn btn-dark text-light">Git Hub</a> */}
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ export default function Progetti() {
                         <div className="card-body d-flex flex-column align-items-center">
                             <h4 className="card-title text-light">TodoList-app</h4>
                             <p className="card-text text-light">Interfaccia di un'applicazione ToDo List minimalista, con funzionalità per gestire e aggiungere compiti.</p>
-                            {/* <a href="/#" className="btn btn-dark text-light">Scopri di più</a> */}
+                            {/* <a href="/#" className="btn btn-dark text-light">Git Hub</a> */}
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ export default function Progetti() {
                         <div className="card-body d-flex flex-column align-items-center">
                             <h4 className="card-title text-light">EpiBooks</h4>
                             <p className="card-text text-light">EpiBooks è una piattaforma per scoprire libri, con dettagli visivi e recensioni personalizzate. Permette di cercare titoli, leggere riassunti e lasciare valutazioni in modo semplice e veloce.</p>
-                            {/* <a href="/#" className="btn btn-dark text-light">Scopri di più</a> */}
+                            {/* <a href="/#" className="btn btn-dark text-light">Git Hub</a> */}
                         </div>
                     </div>
                 </div>
@@ -60,12 +60,12 @@ export default function Progetti() {
                         <div className="card-body d-flex flex-column align-items-center">
                             <h4 className="card-title text-light">NetClone</h4>
                             <p className="card-text text-light">Ho creato un'interfaccia simile a Netflix con un sistema multi-carousel, che permette di navigare tra categorie di contenuti in modo fluido e responsive, riproducendo l'esperienza utente della piattaforma originale</p>
-                            {/* <a href="/#" className="btn btn-dark text-light">Scopri di più</a> */}
+                            {/* <a href="/#" className="btn btn-dark text-light">Git Hub</a> */}
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                    <div className="card bg-dark">
+                    <div className="card bg-dark d-flex justify-content-center">
                         <img className="card-img-top" src={ComingSoon} alt="Coming Soon" />
                     </div>
                 </div>

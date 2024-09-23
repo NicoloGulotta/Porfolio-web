@@ -7,3 +7,28 @@ img.image {
   height: 50vh;
   object-fit: contain;
 }
+.card-text {
+  height: 200px;
+}
+
+.card {
+  /* Dimensioni base */
+  width: 35rem;
+  height: 30rem;
+
+  /* Margini per creare spaziatura */
+  margin: 1rem;
+
+  /* Bordi arrotondati */
+  border-radius: 10px;
+
+  /* Ombra per dare profondità */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Media query per schermi più piccoli */
+@media (max-width: 768px) {
+  .card {
+    width: 100%; /* Occupa tutta la larghezza del contenitore */
+  }
+}
