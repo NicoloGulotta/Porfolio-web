@@ -11,7 +11,7 @@ import NetflixClone from '../../../assets/Netflix-clone.png';
 
 export default function Progetti() {
     return (
-        <div className="container-pro">
+        <div className="container-prog">
             <h2 className="text-light">Progetti</h2>
             <div className="row">
                 <div className="col-md-4 col-sm-6">
