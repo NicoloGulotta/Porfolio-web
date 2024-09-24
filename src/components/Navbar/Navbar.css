@@ -1,15 +1,18 @@
+/* Sidebar generica */
 .sidebar {
   width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 5rem;
+  margin: 5rem auto;
 }
+
 .name-image {
   width: 32%;
   margin: 10px auto;
 }
+
 .animated-arrow {
   animation: arrow-animation 2s infinite;
   margin-top: 50px;
@@ -27,8 +30,22 @@
     transform: translateY(0);
   }
 }
+
+/* Ottimizzazioni per schermi piccoli */
 @media (max-width: 767px) {
+  .sidebar {
+    width: 100%; /* Assicura che la sidebar occupi tutto lo spazio disponibile */
+    margin: 2rem auto; /* Riduci i margini per schermi più piccoli */
+    padding: 1rem; /* Aggiungi padding per evitare che gli elementi siano troppo vicini ai bordi */
+  }
+
   .name-image {
-    width: 70%;
+    width: 50%; /* Aumenta la larghezza delle immagini per schermi piccoli */
+    margin: 10px 0;
+  }
+
+  .animated-arrow {
+    width: 20%; /* Aumenta leggermente la dimensione della freccia per renderla più visibile su schermi piccoli */
+    margin-top: 30px;
   }
 }

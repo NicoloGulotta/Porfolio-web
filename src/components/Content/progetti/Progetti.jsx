@@ -56,7 +56,7 @@ export default function Progetti() {
                         onClick={() => toggleExpand(index)}
                         style={{ transition: 'transform 0.3s ease-in-out' }} // Aggiunta transizione generale
                     >
-                        <div className="card bg-dark">
+                        <div className="card bg-dark  pb-3">
                             <img className="card-image" src={project.img} alt={project.title} />
                             <div className="card-body d-flex flex-column align-items-center">
                                 <h4 className="card-title text-light">{project.title}</h4>

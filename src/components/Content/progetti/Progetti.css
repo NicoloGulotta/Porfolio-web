@@ -10,8 +10,7 @@ img.image {
 }
 
 .card {
-  width: 90%;
-  margin-bottom: 3rem;
+  margin: 1rem;
   transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* Ottimizzazione delle transizioni */
   cursor: pointer;
 }
@@ -21,17 +20,8 @@ img.image {
 }
 
 .expanded {
-  transform: scale(1.5);
-  position: sticky;
-  top: 50vw;
-  right: 50vh;
-  transform: translate(-50%, -50%);
+  transform: scale(2);
   z-index: 9999;
-  margin: 0;
-  width: 100%;
-  height: 50vh; /* Regola l'altezza della card espansa */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  transition: transform 0.3s ease-in-out;
 }
 
 .container {
