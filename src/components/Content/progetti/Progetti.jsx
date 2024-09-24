@@ -52,7 +52,7 @@ export default function Progetti() {
                 {projects.map((project, index) => (
                     <div
                         key={index}
-                        className={`col-md-4 col-sm-6 ${expandedCard === index ? ' expanded' : 'col-md-4 col-sm-6'}`}
+                        className={`col-md-6 col-sm-6 ${expandedCard === index ? ' expanded' : 'col-md-4 col-sm-6'}`}
                         onClick={() => toggleExpand(index)}
                         style={{ transition: 'transform 0.3s ease-in-out' }} // Aggiunta transizione generale
                     >
