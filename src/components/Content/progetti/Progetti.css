@@ -1,15 +1,8 @@
-.container-prog {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 img.image {
   width: 100%;
   max-width: 100%;
   height: auto; /* Mantiene il rapporto di aspetto */
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .card-text {
@@ -17,25 +10,46 @@ img.image {
 }
 
 .card {
-  width: 90%; /* Adatta la larghezza della card all'80% del contenitore */
-  max-width: 35rem; /* Limita la larghezza massima */
-  height: auto; /* Flessibilità per altezza */
+  width: 90%;
   margin-bottom: 3rem;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* Ottimizzazione delle transizioni */
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.expanded {
+  transform: scale(1.5);
+  position: sticky;
+  top: 50vw;
+  right: 50vh;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  margin: 0;
+  width: 100%;
+  height: 50vh; /* Regola l'altezza della card espansa */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.container {
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.3);
+  padding: 3rem; /* Centra le card orizzontalmente */
 }
 
 @media (max-width: 768px) {
   .card {
     width: 100%; /* Occupa tutta la larghezza del contenitore */
-    height: auto; /* Permetti all'altezza di adattarsi */
     margin: 0.5rem; /* Riduci i margini per spazi ristretti */
   }
   .card-text {
     height: auto; /* Adatta il testo alla dimensione disponibile */
   }
-}
-@media (max-width: 768px) {
   .container-prog {
-    flex-direction: column;
-    align-items: stretch; /* Allinea le card a tutta la larghezza */
+    flex-direction: column; /* Allinea le card in colonna */
+    align-items: center; /* Centra le card orizzontalmente */
   }
 }
