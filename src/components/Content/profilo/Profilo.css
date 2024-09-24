@@ -45,13 +45,13 @@
     margin-top: 1rem;
   }
   .profile-image {
-    width: 80%; /* Immagine più grande per occupare spazio */
+    width: 100%; /* Immagine più grande per occupare spazio */
     margin: 10px; /* Riduci margini per schermi più piccoli */
   }
 }
 
 .profile-image {
-  width: 30%;
+  width: 40%;
   border-radius: 10px;
   margin: 20px;
   transition: all 1.5s;

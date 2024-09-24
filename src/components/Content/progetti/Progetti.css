@@ -31,15 +31,7 @@ img.image {
 }
 
 @media (max-width: 768px) {
-  .card {
-    width: 100%; /* Occupa tutta la larghezza del contenitore */
-    margin: 0.5rem; /* Riduci i margini per spazi ristretti */
-  }
-  .card-text {
-    height: auto; /* Adatta il testo alla dimensione disponibile */
-  }
-  .container-prog {
-    flex-direction: column; /* Allinea le card in colonna */
-    align-items: center; /* Centra le card orizzontalmente */
+  .container {
+    width: 20%;
   }
 }
