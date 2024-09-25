@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './Progetti.css';
 
@@ -39,28 +38,19 @@ const projects = [
 ];
 
 export default function Progetti() {
-    const [expandedCard, setExpandedCard] = useState(null);
-
-    const toggleExpand = (cardIndex) => {
-        setExpandedCard(prev => (prev === cardIndex ? null : cardIndex)); // Utilizza il valore precedente per semplificare
-    };
-
     return (
-        <div className="container">
-            <h2 className="text-light mb-5">Progetti</h2>
-            <div className="row">
+        <div className="container py-5">
+            <h2 className="text-light mb-5 text-center">Progetti</h2>
+            <div className="row g-4">
                 {projects.map((project, index) => (
-                    <div
-                        key={index}
-                        className={`col-md-12 ${expandedCard === index ? ' expanded' : 'col-md-4 col-sm-6'}`}
-                        onClick={() => toggleExpand(index)}
-                        style={{ transition: 'transform 0.3s ease-in-out' }} // Aggiunta transizione generale
-                    >
-                        <div className="card bg-dark  pb-3">
-                            <img className="card-image" src={project.img} alt={project.title} />
-                            <div className="card-body d-flex flex-column align-items-center">
+                    <div key={index} className="col-12 col-sm-6 col-md-4">
+                        <div className="card bg-dark h-100">
+                            <img className="card-img-top" src={project.img} alt={project.title} />
+                            <div className="card-body text-center">
                                 <h4 className="card-title text-light">{project.title}</h4>
-                                {project.description && <p className="card-text text-light">{project.description}</p>}
+                                {project.description && (
+                                    <p className="card-text text-light">{project.description}</p>
+                                )}
                             </div>
                         </div>
                     </div>
