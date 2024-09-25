@@ -1,66 +1,35 @@
 .profilo {
-  width: 100%; /* Assicura che il profilo occupi tutta la larghezza disponibile */
-  max-width: 800px; /* Limita la larghezza massima a 800px */
-  margin-bottom: 3rem; /* Riduci il margine inferiore */
+  max-width: 800px;
+  margin-bottom: 3rem;
   border-radius: 10px;
   box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.3);
-  padding: 1rem; /* Aggiungi padding per evitare che il contenuto sia troppo vicino ai bordi */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 1rem;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 200px;
 }
 
 .profile-text {
   text-align: justify;
-  margin-top: 1rem;
-  font-size: 1.2rem; /* Imposta una dimensione base del testo */
+  font-size: 1.2rem;
 }
 
-/* Per schermi grandi */
 @media (min-width: 1200px) {
   .profile-text {
     font-size: 1.4rem;
   }
 }
 
-/* Per schermi medi (tra 768px e 1199px) */
-@media (max-width: 1199px) and (min-width: 768px) {
-  .profilo {
-    flex-direction: row; /* Cambia layout orizzontale per schermi medi */
-    justify-content: space-between; /* Distribuisci uniformemente */
-  }
+@media (max-width: 1199px) {
   .profile-text {
     font-size: 1.3rem;
-    width: 50%; /* Limita la larghezza del testo al 50% */
-  }
-  .profile-image {
-    width: 40%; /* Immagine leggermente più grande */
   }
 }
 
-/* Per schermi piccoli (fino a 767px) */
 @media (max-width: 767px) {
   .profile-text {
-    font-size: 1.1rem; /* Riduci la dimensione del testo */
-    margin-top: 1rem;
+    font-size: 1.1rem;
   }
-  .profile-image {
-    width: 100%; /* Immagine più grande per occupare spazio */
-    margin: 10px; /* Riduci margini per schermi più piccoli */
-  }
-}
-
-.profile-image {
-  width: 40%;
-  margin: 10px;
-}
-
-.col4 {
-  border-radius: 10px;
-}
-
-span {
-  font-size: x-large;
-  font-weight: bolder;
-  margin: 20px;
 }

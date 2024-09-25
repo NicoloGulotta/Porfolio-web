@@ -19,7 +19,7 @@ export default function MernStack() {
             </Button>
 
             {showDetails && (
-                <section className="list text-white mt-3">
+                <section className="text-white mt-3 box-info">
                     <ol>
                         <li>
                             <strong>HTML, CSS & JS:</strong>

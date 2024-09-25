@@ -1,4 +1,3 @@
-/* Sidebar generica */
 .sidebar {
   width: 90%;
   display: flex;
@@ -20,32 +19,29 @@
 }
 
 @keyframes arrow-animation {
-  0% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
     transform: translateY(20px);
   }
-  100% {
-    transform: translateY(0);
-  }
 }
 
-/* Ottimizzazioni per schermi piccoli */
 @media (max-width: 767px) {
   .sidebar {
-    width: 100%; /* Assicura che la sidebar occupi tutto lo spazio disponibile */
-    margin: 2rem auto; /* Riduci i margini per schermi più piccoli */
-    padding: 1rem; /* Aggiungi padding per evitare che gli elementi siano troppo vicini ai bordi */
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1rem;
   }
 
   .name-image {
-    width: 50%; /* Aumenta la larghezza delle immagini per schermi piccoli */
+    width: 50%;
     margin: 10px 0;
   }
 
   .animated-arrow {
-    width: 20%; /* Aumenta leggermente la dimensione della freccia per renderla più visibile su schermi piccoli */
+    width: 20%;
     margin-top: 30px;
   }
 }

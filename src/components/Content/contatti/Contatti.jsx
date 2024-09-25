@@ -6,8 +6,6 @@ import { Modal, Button } from 'react-bootstrap';
 
 export default function Contatti() {
     const [showModal, setShowModal] = useState(false);
-    const handleClose = () => setShowModal(false);
-    const handleShow = () => setShowModal(true);
 
     return (
         <div className='container-con'>
@@ -29,13 +27,13 @@ export default function Contatti() {
                     </a>
                 </li>
             </ul>
-            <Button variant="outline-light" onClick={handleShow}>
+            <Button variant="outline-light" onClick={() => setShowModal(true)}>
                 Contattami
             </Button>
             <a href="/CV_NG_2024.pdf" download>
                 <Button variant="outline-light">Scarica il mio CV</Button>
             </a>
-            <Modal show={showModal} onHide={handleClose}>
+            <Modal show={showModal} onHide={() => setShowModal(false)}>
                 <Modal.Header closeButton>
                     <Modal.Title>Scrivimi qui</Modal.Title>
                 </Modal.Header>
@@ -46,7 +44,7 @@ export default function Contatti() {
                     </p>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
+                    <Button variant="secondary" onClick={() => setShowModal(false)}>
                         Chiudi
                     </Button>
                 </Modal.Footer>

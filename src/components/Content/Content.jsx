@@ -1,49 +1,40 @@
 import React, { useEffect, useState } from 'react';
 import './Content.css';
-import Profilo from './profilo/Profilo.jsx';
-import Progetti from './progetti/Progetti.jsx';
-import Contatti from './contatti/Contatti.jsx';
-import MernStack from './Mern/Mern.jsx';
+import Profilo from './profilo/Profilo';
+import Progetti from './progetti/Progetti';
+import Contatti from './contatti/Contatti';
+import MernStack from './Mern/Mern';
+
 export default function Content() {
     const [currentBlock, setCurrentBlock] = useState(0);
     const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
-        const handleScroll = () => {
-            setIsScrolled(window.scrollY > 0);
-        };
-
+        const handleScroll = () => setIsScrolled(window.scrollY > 0);
         window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
+        return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    const handleBlockClick = (index) => {
-        setCurrentBlock(index);
-    };
+    const handleBlockClick = (index) => setCurrentBlock(index);
 
     const blocks = [
-        { component: <Profilo /> },
-        { component: <MernStack /> },
-        { component: <Progetti /> },
-        { component: <Contatti /> },
+        { component: <Profilo />, title: "Profilo" },
+        { component: <MernStack />, title: "MERN Stack" },
+        { component: <Progetti />, title: "Progetti" },
+        { component: <Contatti />, title: "Contatti" },
     ];
 
     return (
         <div className="container-content">
-
             {blocks.map((block, index) => (
                 <div
                     key={index}
                     className={`blocco ${isScrolled ? 'hidden' : ''} ${index === currentBlock ? 'active' : ''}`}
                     onClick={() => handleBlockClick(index)}
                 >
-                    <h2 className="block-title">{block.title}</h2>
                     {block.component}
                 </div>
             ))}
         </div>
-
     );
 }
