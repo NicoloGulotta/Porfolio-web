@@ -12,7 +12,7 @@ const Profilo = () => {
                 </Col>
                 <Col xs={12} md={8}>
                     <h3 className="text-white mb-4">WEB DEVELOPER FULL-STACK <strong>M.E.R.N.</strong></h3>
-                    <p>
+                    <p className='profile-text'>
                         Professionista versatile con una passione predominante per lo sviluppo web, con particolare esperienza
                         nell'uso dello stack MERN (MongoDB, Express.js, React, Node.js). Ho maturato competenze nel creare soluzioni web
                         dinamiche e scalabili, sfruttando le potenzialità di questa tecnologia per sviluppare applicazioni moderne e reattive.
