@@ -64,7 +64,11 @@ export default function MernStack() {
                                 <li><strong>Deploying:</strong> Distribuzione delle applicazioni su piattaforme cloud, ottimizzazione delle performance e scalabilità.</li>
                             </ul>
                         </li>
+                        <Button variant="outline-light m-4" className="mt-3" onClick={toggleDetails}>
+                            {showDetails ? 'Nascondi Dettagli' : 'Mostra Dettagli'}
+                        </Button>
                     </ol>
+
                 </section>
             )}
         </div>

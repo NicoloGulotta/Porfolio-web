@@ -13,28 +13,33 @@ const projects = [
         img: Capstone,
         title: "Capstone Barber Shop",
         description: "Gestionale completo per barbieri sviluppato con lo stack MERN. Frontend responsive per la prenotazione intuitiva di servizi; backend sicuro con autenticazione a token per la gestione degli utenti e delle operazioni CRUD.",
+        githubLink: "https://github.com/NicoloGulotta/Capstone.git"
     },
     {
         img: LinkSmart,
         title: "Barber Links",
         description: "Codice QR per accedere rapidamente alle recensioni e ai canali social di 'Vito Gallo Barber Shop'",
+        githubLink: "https://github.com/NicoloGulotta/vito-gallo-links.git"
     },
     {
         img: TodoList,
         title: "TodoList-app",
         description: "Interfaccia di un'applicazione ToDo List minimalista, con funzionalità per gestire e aggiungere compiti.",
+        githubLink: "https://github.com/NicoloGulotta/todo-list-app.git"
     },
     {
         img: Epibooks,
         title: "EpiBooks",
         description: "EpiBooks è una piattaforma per scoprire libri, con dettagli visivi e recensioni personalizzate. Permette di cercare titoli, leggere riassunti e lasciare valutazioni in modo semplice e veloce.",
+        githubLink: "https://github.com/NicoloGulotta/app-react-0.git"
     },
     {
         img: NetflixClone,
         title: "NetClone",
         description: "Ho creato un'interfaccia simile a Netflix con un sistema multi-carousel, che permette di navigare tra categorie di contenuti in modo fluido e responsive.",
+        githubLink: "https://github.com/NicoloGulotta/Progetto-Neflix---MultiCarousell.git"
     },
-    { img: ComingSoon, title: "...", description: "" },
+    { img: ComingSoon, title: "...", description: "", githubLink: "" },
 ];
 
 export default function Progetti() {
@@ -50,6 +55,11 @@ export default function Progetti() {
                                 <h4 className="card-title text-light">{project.title}</h4>
                                 {project.description && (
                                     <p className="card-text text-light">{project.description}</p>
+                                )}
+                                {project.githubLink && (
+                                    <a href={project.githubLink} className="btn btn-light" target="_blank" rel="noopener noreferrer">
+                                        View on GitHub
+                                    </a>
                                 )}
                             </div>
                         </div>
