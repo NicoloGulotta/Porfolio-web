@@ -13,16 +13,10 @@ const Profilo = () => {
                 <Col xs={12} md={8}>
                     <h3 className="text-white mb-4">WEB DEVELOPER FULL-STACK <strong>M.E.R.N.</strong></h3>
                     <p className='profile-text'>
-                        Professionista versatile con una passione predominante per lo sviluppo web, con particolare esperienza
-                        nell'uso dello stack MERN (MongoDB, Express.js, React, Node.js). Ho maturato competenze nel creare soluzioni web
-                        dinamiche e scalabili, sfruttando le potenzialità di questa tecnologia per sviluppare applicazioni moderne e reattive.
-                        Oltre alla mia esperienza nella ristorazione e logistica, che ha affinato le mie capacità di problem-solving e di lavoro
-                        in team, il mio vero interesse risiede nello sviluppo web. Sono continuamente impegnato nell'apprendimento di nuove
-                        tecnologie e metodologie, con un focus specifico sull'ecosistema JavaScript, per migliorare le mie competenze tecniche
-                        e creare progetti web di alta qualità.
+                        Sono un web developer full-stack con esperienza nello stack MERN (MongoDB, Express.js, React, Node.js). Creo soluzioni web dinamiche e scalabili. Ho anche esperienza nella ristorazione e logistica, che ha migliorato le mie capacità di problem-solving e di lavoro in team. Mi dedico costantemente all'apprendimento di nuove tecnologie e metodologie, con un focus sull'ecosistema JavaScript, per migliorare le mie competenze tecniche e creare progetti web di alta qualità.
                     </p>
                     <p>
-                        Sto costantemente migliorando le mie abilità per offrire soluzioni innovative e di alta qualità ai miei clienti.
+                        Miglioro continuamente le mie abilità per offrire soluzioni innovative e di alta qualità ai miei clienti.
                     </p>
                 </Col>
             </Row>

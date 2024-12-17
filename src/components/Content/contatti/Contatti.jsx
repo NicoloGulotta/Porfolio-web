@@ -35,7 +35,7 @@ export default function Contatti() {
             </a>
             <Modal show={showModal} onHide={() => setShowModal(false)}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Scrivimi qui</Modal.Title>
+                    <Modal.Title>Clicca sulla e-mail</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <p className='text-dark'>

@@ -2,52 +2,67 @@
   width: 100%;
   text-align: center;
   margin-bottom: 3rem;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.3);
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 @media (max-width: 568px) {
   .container-mern {
     margin-bottom: 2rem;
-    padding: 0.5rem;
+    padding: 1rem;
   }
   .title {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }
 
 .title {
-  color: white;
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 .pic {
   width: 100%;
   max-width: 90%;
   height: auto;
-  border-radius: 10px;
-  margin-top: 1rem;
+  border-radius: 15px;
+  margin-top: 1.5rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .container-mern ol {
   list-style-position: inside;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   max-width: 80%;
   text-align: justify;
+  color: #fff;
 }
 
 .container-mern ol li {
-  margin-bottom: 0.5rem;
-  padding: 0.5rem;
-  background-color: rgba(165, 165, 165, 0.15);
-  border-radius: 5px;
+  margin-bottom: 0.75rem;
+  padding: 0.75rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.container-mern ol li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .list {
   display: contents;
 }
+
 .box-info {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }

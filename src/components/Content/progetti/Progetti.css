@@ -13,3 +13,8 @@ img.image {
   box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.3);
   padding: 3rem;
 }
+.card-text {
+  hyphens: none;
+  text-align: justify;
+  text-align: ;
+}

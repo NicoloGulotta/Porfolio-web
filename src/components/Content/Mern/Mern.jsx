@@ -21,54 +21,16 @@ export default function MernStack() {
             {showDetails && (
                 <section className="text-white mt-3 box-info">
                     <ol>
-                        <li>
-                            <strong>HTML, CSS & JS:</strong>
-                            <ul>
-                                <li><strong>HTML:</strong> Struttura semantica delle pagine web.</li>
-                                <li><strong>CSS:</strong> Stile e layout delle pagine, adattamento responsivo.</li>
-                                <li><strong>JavaScript:</strong> Interattività e dinamismo sul lato client.</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <strong>React:</strong>
-                            <ul>
-                                <li>Libreria JavaScript per la costruzione di interfacce utente dinamiche e componenti riutilizzabili.</li>
-                                <li>Gestione dello stato dell'applicazione con facilità, attraverso componenti e hook.</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <strong>Node:</strong>
-                            <ul>
-                                <li>Ambiente di runtime JavaScript lato server, che permette l'esecuzione di JavaScript al di fuori del browser.</li>
-                                <li>Creazione di applicazioni server-side con efficienza e scalabilità.</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <strong>Express:</strong>
-                            <ul>
-                                <li>Framework minimalista per Node.js, utilizzato per creare API e gestire routing e middleware.</li>
-                                <li>Semplificazione della gestione delle richieste HTTP, autenticazione e gestione delle sessioni.</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <strong>MongoDB:</strong>
-                            <ul>
-                                <li>Database NoSQL orientato ai documenti, che consente di memorizzare dati in formato JSON-like.</li>
-                                <li>Flessibilità nella gestione di dati non strutturati e scalabilità per grandi volumi di dati.</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <strong>Connecting & Deploying:</strong>
-                            <ul>
-                                <li><strong>Connecting:</strong> Integrazione del front-end e back-end, assicurando un flusso di dati senza interruzioni tra server e client.</li>
-                                <li><strong>Deploying:</strong> Distribuzione delle applicazioni su piattaforme cloud, ottimizzazione delle performance e scalabilità.</li>
-                            </ul>
-                        </li>
+                        <li><strong>HTML, CSS & JS:</strong> HTML for structure, CSS for style, and JavaScript for interactivity.</li>
+                        <li><strong>React:</strong> JavaScript library for building dynamic user interfaces and reusable components.</li>
+                        <li><strong>Node:</strong> JavaScript runtime for server-side applications, enabling efficient and scalable server-side code.</li>
+                        <li><strong>Express:</strong> Minimalist framework for Node.js, used for creating APIs and handling routing and middleware.</li>
+                        <li><strong>MongoDB:</strong> NoSQL database for storing JSON-like documents, offering flexibility and scalability for large data volumes.</li>
+                        <li><strong>Connecting & Deploying:</strong> Integrating front-end and back-end for seamless data flow, and deploying applications on cloud platforms for optimized performance and scalability.</li>
                         <Button variant="outline-light m-4" className="mt-3" onClick={toggleDetails}>
                             {showDetails ? 'Nascondi Dettagli' : 'Mostra Dettagli'}
                         </Button>
                     </ol>
-
                 </section>
             )}
         </div>

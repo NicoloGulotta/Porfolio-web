@@ -13,8 +13,8 @@
 
 .profile-text {
   font-size: 1.2rem;
+  hyphens: none;
   text-align: justify;
-  hyphens: auto;
 }
 
 @media (min-width: 1200px) {
