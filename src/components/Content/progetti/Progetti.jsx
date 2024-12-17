@@ -58,7 +58,7 @@ export default function Progetti() {
                                 )}
                                 {project.githubLink && (
                                     <a href={project.githubLink} className="btn btn-light" target="_blank" rel="noopener noreferrer">
-                                        View on GitHub
+                                        GitHub
                                     </a>
                                 )}
                             </div>
