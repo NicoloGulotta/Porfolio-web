@@ -30,7 +30,7 @@ export default function Contatti() {
             <Button variant="outline-light" onClick={() => setShowModal(true)}>
                 Contattami
             </Button>
-            <a href="/CV_NG_2024.pdf" download>
+            <a href="/CV_NG_2025.pdf" download>
                 <Button variant="outline-light">Scarica il mio CV</Button>
             </a>
             <Modal show={showModal} onHide={() => setShowModal(false)}>
