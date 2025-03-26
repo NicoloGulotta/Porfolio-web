@@ -3,7 +3,7 @@ import './Content.css';
 import Profilo from './profilo/Profilo';
 import Progetti from './progetti/Progetti';
 import Contatti from './contatti/Contatti';
-import MernStack from './Mern/Mern';
+// import MernStack from './Mern/Mern';
 
 export default function Content() {
     const [currentBlock, setCurrentBlock] = useState(0);
@@ -19,7 +19,7 @@ export default function Content() {
 
     const blocks = [
         { component: <Profilo />, title: "Profilo" },
-        { component: <MernStack />, title: "MERN Stack" },
+        // { component: <MernStack />, title: "MERN Stack" },
         { component: <Progetti />, title: "Progetti" },
         { component: <Contatti />, title: "Contatti" },
     ];
