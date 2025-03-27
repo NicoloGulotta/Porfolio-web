@@ -8,7 +8,7 @@ import TodoList from '../../../assets/Screenshot 2024-09-05 211849.png';
 import Epibooks from '../../../assets/Screenshot 2024-09-19 182247.png';
 import NetflixClone from '../../../assets/Netflix-clone.png';
 import PokeSearch from '../../../assets/Screenshot PokeSearch.png';
-
+import DreamTripTest from '../../../assets/Screenshot DreamTripTest.png';
 const projects = [
     {
         img: Capstone,
@@ -37,6 +37,14 @@ const projects = [
         description: "Applicazione per cercare e visualizzare i dettagli dei Pokémon",
         githubLink: "https://github.com/NicoloGulotta/epibooks.git",
         liveLink: "https://pokemon-search-delta.vercel.app/"
+
+    },
+    {
+        img: DreamTripTest,
+        title: "DreamTripTest",
+        description: "Sempice vetrina di un sito viaggi",
+        githubLink: "https://github.com/NicoloGulotta/Progetto-viaggi.git",
+        liveLink: "https://dreamtriptest.netlify.app/"
 
     },
     {
