@@ -9,6 +9,7 @@
 .profile-image {
   width: 100%;
   max-width: 200px;
+  filter: drop-shadow(1px 3px 10px #818181);
 }
 
 .profile-text {
