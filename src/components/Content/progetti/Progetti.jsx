@@ -15,7 +15,7 @@ const projects = [
         title: "Capstone Barber Shop",
         description: "Gestionale completo per barbieri sviluppato con lo stack MERN. Frontend responsive per la prenotazione intuitiva di servizi; backend sicuro con autenticazione a token per la gestione degli utenti e delle operazioni CRUD.",
         githubLink: "https://github.com/NicoloGulotta/Capstone.git",
-        liveLink: "https://capstone-barber-shop.netlify.app"
+        liveLink: "https://capstone-sooty-five.vercel.app/"
     },
     {
         img: LinkSmart,
